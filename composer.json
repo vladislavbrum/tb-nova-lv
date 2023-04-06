@@ -1,0 +1,56 @@
+{
+  "name": "optimistdigital/nova-table-field",
+  "description": "Table field for Laravel Nova",
+  "keywords": [
+    "laravel",
+    "nova",
+    "tables",
+    "optimistdigital"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kaspar Rosin",
+      "email": "kaspar.rosin@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Optimist Digital",
+      "email": "info@optimistdigital.com",
+      "role": "Maintainer"
+    },
+    {
+      "name": "Tarvo Reinpalu",
+      "email": "tarvoreinpalu@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://nova.laravel.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "laravel/nova": "^4.16",
+    "nova-kit/nova-packages-tool": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "OptimistDigital\\NovaTableField\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "OptimistDigital\\NovaTableField\\FieldServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
