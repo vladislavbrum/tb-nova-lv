@@ -16,7 +16,7 @@ Simple [Laravel Nova](https://nova.laravel.com) Table field.
 Install the package in a Laravel Nova project via Composer:
 
 ```bash
-composer require optimistdigital/nova-table-field
+composer require vladislavbrum/tb-nova-lv
 ```
 
 ## Usage
