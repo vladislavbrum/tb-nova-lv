@@ -1,8 +1,0 @@
-{
-  "novaTableField.addColumn": "Добавить колонку",
-  "novaTableField.addRow": "Добавить поле",
-  "novaTableField.minRowsError": "Minimum number of rows is set to :min",
-  "novaTableField.maxRowsError": "Maximum number of rows is set to :max",
-  "novaTableField.minColumnsError": "Minimum number of columns is set to :min",
-  "novaTableField.maxColumnsError": "Maximum number of columns is set to :max"
-}
